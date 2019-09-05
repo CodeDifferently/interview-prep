@@ -28,13 +28,31 @@ A Few Java Questions
     * JRE stands for Java Runtime Environment
         * allows java programs to be ran in an isolated (virtualized) environemnt
 
-6. Which class is the superclass of all classes? Objects
-7. Why Java doesn't support multiple inheritance? It can lead to the overriding of methods when both extended classes have the same method names. Use interfaces instead.
-8. Why is Java not a pure Object Oriented language? Due to primitives
-9. What is difference between path and classpath variables? path variables deal with the PATH environment and allow the OS to run the executable from any directory. Classpath variables is a system environment variable used by the Java compiler and JVM
-10. What is the importance of main method in Java? The main method is used to start the program in JVM. It can be overloaded but the original method will be only one called in the JVM
-11. What is overloading and overriding in java? Overloading is the same method signature but different parameters. Overriding is the same method signature and parameters but different implementation
-12. Can we overload the main method? Yes 
+6. Which class is the superclass of all classes?
+    * `Object` is the superclass of all other java classes.
+
+7. Why Java doesn't support multiple inheritance?
+    * multiinheritance can create inexplicit overriding of methods; making behavior unexpected or less predictable.
+
+8. Why is Java not a pure Object Oriented language?
+    * Because primitives are not objects, the language is not considered a _pure_ OOP language.
+
+9. What is difference between path and classpath variables?
+    * path variables deal with the PATH environment and allow the OS to run the executable from any directory.
+    * Classpath variables is a system environment variable used by the Java compiler and JVM
+
+10. What is the importance of `main` method in Java?
+    * The `main` method is used to start the program in JVM.
+
+11. What is _overloading_?
+    * overloading is the same method signature but different parameters.
+
+12. What is _overriding_?
+    * is the same method signature and parameters but different implementation
+
+13. Can we overload the `main` method?
+    Yes
+
 13. Can we have multiple public classes in a java source file? Yes, it can. However, there can only be one public class per .java file, as public classes must have the same name as the source file. One Java file can consist of multiple classes with the restriction that only one of them can be public.
 14. What is a Java Package and which package is imported by default? Encapsulates a group of classes, subclasses, and interfaces. java.lang is imported by default. It provides classes that are needed to the design of Java programming
 15. What are the access modifiers? An access modifier restricts the access of a class, constructor, data member and method in another class. Public = all subclasses have access. Private = scope is limited to the class itself. Protected = only access available to classes and subclasses in that package. Default = only accessed by those in the package only
