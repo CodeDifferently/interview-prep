@@ -1,5 +1,3 @@
-# ZCW-MicroLabs-JavaFundamentals-SumOrProduct
-
 # Sum or Product
 
 ## Overview

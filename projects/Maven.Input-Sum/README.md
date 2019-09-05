@@ -1,6 +1,4 @@
-# ZCW-MicroLabs-JavaFundamentals-SumOfInput
-
-# Sum of the Numbers
+# Iterative Guassian Sum
 
 ## **Objective:**
 * Write a program which prompts the user to input a number, `n`.
@@ -11,11 +9,5 @@
 * To establish familiarity with
     * Loops
     * User input
-    * Object instantation/declaration
-    * Method invokation
-
-### **Resources:**
-* [Fundamental Programming Structures](https://zipcoder.github.io/reveal-slides/fundament-programing-stuctures.html#/)
-
-## Unit Test
-No Unit Test
+    * Object instantiation/declaration
+    * Method invocation
