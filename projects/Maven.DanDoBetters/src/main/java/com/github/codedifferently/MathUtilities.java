@@ -1,4 +1,4 @@
-package com.zipcodewilmington.danny_do_better_exercises;
+package com.github.codedifferently;
 
 /**
  * Created by dan on 6/14/17.

@@ -1,6 +1,6 @@
-package com.zipcodewilmington.danny_do_better_exercises.mathutilities;
+package com.github.codedifferently.mathutilities;
 
-import com.zipcodewilmington.danny_do_better_exercises.MathUtilities;
+import com.github.codedifferently.MathUtilities;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

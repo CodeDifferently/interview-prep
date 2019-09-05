@@ -1,4 +1,4 @@
-package com.zipcodewilmington.danny_do_better_exercises;
+package com.github.codedifferently;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

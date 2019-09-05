@@ -1,5 +1,6 @@
-package com.zipcodewilmington.danny_do_better_exercises;
+package com.github.codedifferently;
 
+import com.github.codedifferently.StringUtilities;
 import org.junit.Assert;
 import org.junit.Test;
 import static org.junit.Assert.*;
