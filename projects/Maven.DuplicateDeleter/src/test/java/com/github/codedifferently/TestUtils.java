@@ -1,4 +1,4 @@
-package com.zipcodewilmington.looplabs;
+package com.github.codedifferently;
 
 import org.junit.Assert;
 
