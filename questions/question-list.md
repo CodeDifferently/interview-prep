@@ -6,56 +6,56 @@ A Few Java Questions
     * Polymorphism
     * Inheritance
 
-2. What is meant by platform independence of Java?
+* What is meant by platform independence of Java?
     * Has a large library of useable code and an execution evirionment Java Virtual Machine
 
-3. What is the JVM?
+* What is the JVM?
     * JVM stands for Java Virtual Machine
         * converts bytecode to machine specific code.
         * Provides memory managment, garbage collection.
         * Provides an interface that does not depend on the operating system
 
-4. What is the difference between JDK and JVM?
+* What is the difference between JDK and JVM?
     * JDK stands for Java Development Kit
         * the tools, language, etc.
         * JVM is part of the JDK 
     * JVM stands for Java Virtual Machine.
         * is the machine that allows Java to run anywhere
 
-5. What is the difference between JVM and JRE?
+* What is the difference between JVM and JRE?
     * JVM stands for Java Virtual Machine
         * provides platform independence by changing bytecode
     * JRE stands for Java Runtime Environment
         * allows java programs to be ran in an isolated (virtualized) environemnt
 
-6. Which class is the superclass of all classes?
+* Which class is the superclass of all classes?
     * `Object` is the superclass of all other java classes.
 
-7. Why Java doesn't support multiple inheritance?
+* Why Java doesn't support multiple inheritance?
     * multiinheritance can create inexplicit overriding of methods; making behavior unexpected or less predictable.
 
-8. Why is Java not a pure Object Oriented language?
+* Why is Java not a pure Object Oriented language?
     * Because primitives are not objects, the language is not considered a _pure_ OOP language.
 
-9. What is difference between path and classpath variables?
+* What is difference between path and classpath variables?
     * path variables deal with the PATH environment and allow the OS to run the executable from any directory.
     * Classpath variables is a system environment variable used by the Java compiler and JVM
 
-10. What is the importance of `main` method in Java?
+* What is the importance of `main` method in Java?
     * The `main` method is used to start the program in JVM.
 
-11. What is _overloading_?
+* What is _overloading_?
     * overloading is the same method signature but different parameters.
 
-12. What is _overriding_?
+* What is _overriding_?
     * is the same method signature and parameters but different implementation
 
-13. Can we overload the `main` method?
+* Can we overload the `main` method?
     Yes
 
-13. Can we have multiple public classes in a java source file? Yes, it can. However, there can only be one public class per .java file, as public classes must have the same name as the source file. One Java file can consist of multiple classes with the restriction that only one of them can be public.
-14. What is a Java Package and which package is imported by default? Encapsulates a group of classes, subclasses, and interfaces. java.lang is imported by default. It provides classes that are needed to the design of Java programming
-15. What are the access modifiers? An access modifier restricts the access of a class, constructor, data member and method in another class. Public = all subclasses have access. Private = scope is limited to the class itself. Protected = only access available to classes and subclasses in that package. Default = only accessed by those in the package only
+* Can we have multiple public classes in a java source file? Yes, it can. However, there can only be one public class per .java file, as public classes must have the same name as the source file. One Java file can consist of multiple classes with the restriction that only one of them can be public.
+* What is a Java Package and which package is imported by default? Encapsulates a group of classes, subclasses, and interfaces. java.lang is imported by default. It provides classes that are needed to the design of Java programming
+* What are the access modifiers? An access modifier restricts the access of a class, constructor, data member and method in another class. Public = all subclasses have access. Private = scope is limited to the class itself. Protected = only access available to classes and subclasses in that package. Default = only accessed by those in the package only
 16. What is the final keyword? final variable = constant variable/ final method = cannot be overridding/ final classe = cannot be extended(no inheritance)
 17. What is the static keyword? Belongs to the class and an instance does not have to be created to be accessed
 18. What is finally and finalize in java? Finally means that the code will be ran whether an exception is handled or not. Finalized is used for garbage collections
