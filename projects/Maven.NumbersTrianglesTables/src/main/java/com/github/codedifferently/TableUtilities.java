@@ -1,4 +1,4 @@
-package io.zipcoder.microlabs.mastering_loops;
+package com.github.codedifferently;
 
 public class TableUtilities {
     public static String getSmallMultiplicationTable() {

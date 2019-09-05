@@ -1,4 +1,4 @@
-package io.zipcoder.microlabs.mastering_loops;
+package com.github.codedifferently;
 
 
 import org.junit.Assert;
