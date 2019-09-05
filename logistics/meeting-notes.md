@@ -1,5 +1,29 @@
-* We have until mid october; 4 weeks
+## 3-week Interview Preparation Course
 
+### Objectives
+* Vocabulary 
+	* Students will establish fundamental vocabulary terms
+	* Students will learn fundamental data structures and their math counterparts
+	* Students will learn fundamental operations and their math counterparts
+* Micro-algorithms
+	* Students will learn how to effectively solve small micro-aglorithms.
+	* Students will learn real-life examples of algorithms and their psuedo-code transliterations.
+* White-boarding
+	* Students will learn ubiquotous syntax (conventions) when expressing on a whiteboard
+	* Students will learn how to express pseudo-code using conventions
+	* Students will learn how to build UMLs based on client specs
+
+
+
+
+
+#### Week 1
+##### Day 1
+* Vocabulary
+	* Data structures and their math counterparts
+	* Operations and their math counterparts
+* Objective
+* We have until mid october; 4 weeks
 1. We need students
 2. Reach out to marwan and have him suggest some students.
 	* Goal is to have students go into full time and intern oppotunirties
