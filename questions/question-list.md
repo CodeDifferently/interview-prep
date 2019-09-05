@@ -112,16 +112,37 @@
         * assgin field-values
 
 24. Can an interface implement or extend another interface?
-    * Yes, an interface can `extend` another interface.
+    * Yes, an interface can extend another interface.
+    * An interface cannot `implement` another interface, because it would imply that it would be _defining_ a method. An interface is used to _declare_ method signatures. An interface which `extends` another interface, inherits the declared method signatures and defers the definition to the implementing subclass.
 
-25. What are Wrapper classes? A wrapper classes turns a primitive into an object. Objects are needed if we wish to modify the arguments passed into a method (because primitive types are passed by value).
-26. What is an Enum in Java? A special "class" that represents a group of constants (unchangeable variables, like final variables)
-27. What are Java Annotations? Annotations are used to provide supplement information about a program. Annotations help to associate metadata (information) to the program elements i.e. instance variables, constructors, methods, classes, etc.
-28. What is the Java Reflection API? Why it's so important to have? Java Reflection makes it possible to inspect classes, interfaces, fields and methods at runtime, without knowing the names of the classes, methods etc. at compile time. It is also possible to instantiate new objects, invoke methods and get/set field values using reflection.
-29. What is composition in java? Composition is the design technique to implement has-a relationship in classes. We can use java inheritance or Object composition for code reuse. Java composition is achieved by using instance variables that refers to other objects. 
-30. What is the benefit of Composition over Inheritance? Composition is more flexible than inheritance. You can change implementation of class at run-time by changing included object, thus changing behavior of it, but you can't do this with inheritance, you can't change behavior of base class at run-time. Inheritance breaks encapsulation. By inheriting from a class you're coupling child class with number of potential implementation details of the parent.
-31. How can one sort a collection of custom Objects in Java? Collections.sort
+25. What are Wrapper classes?
+    * Wrapper classes are _decorations_ of primitive types.
+    * Wrapper classes enable all of the expected behaviors of a primitive type, but add additional behaviors.
+
+26. What is an `Enum` in Java?
+    * A special class that represents a group of constants (unchangeable variables, like final variables)
+
+27. What are Java Annotations?
+    * Annotations are used to provide supplement information about a program.
+    * Annotations help to associate metadata (information) to the program elements i.e. instance variables, constructors, methods, classes, etc.
+
+28. What is the Java Reflection API?
+    * Java Reflection makes it possible to inspect classes, interfaces, fields and methods at runtime, without knowing the names of the classes, methods etc. at compile time.
+    * It is also possible to instantiate new objects, invoke methods and get/set field values using reflection.
+
+29. What is composition in OOP?
+    * Composition is the design technique to implement `has-a` relationship in classes.
+    * Java composition is achieved by using instance variables that refers to other objects.
+
+30. What is the benefit of Composition over Inheritance?
+    * Composition is more flexible than inheritance.
+    * You can change implementation of class at run-time by changing included object, thus changing behavior of it. Inheritance violates encapsulation by exposing all of the inherited members. By inheriting from a class you're coupling child class with number of potential implementation details of the parent.
+
+31. How can one sort a collection of custom Objects in Java?
+    * `Collections.sort`
+
 32. What is inner class in java?
+
 33. What is anonymous inner class?
 34. What is the Classloader in Java?
 35. What are different types of classloaders?
