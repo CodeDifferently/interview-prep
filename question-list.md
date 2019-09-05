@@ -1,126 +1,13 @@
 # A Few Java Questions
 
-1. Name the four pillars of OOP?
-    * Abstration
-    * Encapsulation
-    * Polymorphism
-    * Inheritance
-
-2. What is meant by platform independence of Java?
-    * Has a large library of useable code and an execution evirionment Java Virtual Machine
-
-3. What is the JVM?
-    * JVM stands for Java Virtual Machine
-        * converts bytecode to machine specific code.
-        * Provides memory managment, garbage collection.
-        * Provides an interface that does not depend on the operating system
-
-4. What is the difference between JDK and JVM?
-    * JDK stands for Java Development Kit
-        * the tools, language, etc.
-        * JVM is part of the JDK 
-    * JVM stands for Java Virtual Machine.
-        * is the machine that allows Java to run anywhere
-
-5. What is the difference between JVM and JRE?
-    * JVM stands for Java Virtual Machine
-        * provides platform independence by changing bytecode
-    * JRE stands for Java Runtime Environment
-        * allows java programs to be ran in an isolated (virtualized) environemnt
-
-6. Which class is the superclass of all classes?
-    * `Object` is the superclass of all other java classes.
-
-7. Why Java doesn't support multiple inheritance?
-    * multiinheritance can create inexplicit overriding of methods; making behavior unexpected or less predictable.
-
-8. Why is Java not a pure Object Oriented language?
-    * Because primitives are not objects, the language is not considered a _pure_ OOP language.
-
 9. What is difference between path and classpath variables?
     * path variables deal with the PATH environment and allow the OS to run the executable from any directory.
     * Classpath variables is a system environment variable used by the Java compiler and JVM
 
-10. What is the importance of `main` method in Java?
-    * The `main` method is used to start the program in JVM.
-
-11. What is _overloading_?
-    * overloading is the same method signature but different parameters.
-
-12. What is _overriding_?
-    * is the same method signature and parameters but different implementation
-
-13. Can we overload the `main` method?
-    Yes
-
-13. Can we have multiple classes in a java source file?
-    * One `.java` file can consist of multiple classes with the restriction that only one class can be `public`.
-
-14. What is a Java Package and which package is imported by default?
-    * Java package is an encapsulated group of classes, subclasses, and interfaces.
-    * `java.lang` is imported by default.
-        * It provides classes that are needed to the design of Java programming
-
-15. What are the access modifiers?
-    * An access modifier restricts the access of a class, constructor, data member and method in another class. `public` - all subclasses have access.
-    `private` - scope is limited to the class itself.
-    `protected` - only access available to classes and subclasses in that package.
-    `Default` - only accessed by those in the package only
-
-16. What is the `final` keyword?
-    * `final` variable is a constant; It cannot be re-assigned a value.
-    * `final` method is a cannot be overridden
-    * `final` class = cannot be extended
-
-17. What is the `static` keyword?
-    * `static` member is a variable or method which operates independent of the **state** of the class that it is defined in; an instance of the class does not need to be created to access a `static` member.
-
-18. Can we declare a class as `static`?
-    * Only if the class is nested within another.
-    * Outer-most-classes cannot be static
-
-18. What is `finally` and `finalize` in java?
-    * `finally` - code will be ran whether an exception is handled or not.
-    * `finalized()` - is the method called by any object before it is garbage collected
-
-19. What is a multi-catch block in java?
-    * A `try`/`catch` block with multiple `catch` blocks, each specifying how to handle a distinct exception-type.
-
-20. What is a `static` block?
-    * set of statements, which will be executed by the JVM before execution of main method.
-    * A class has to be loaded in main memory before we start using it.
-    * Static block is executed during class loading. 
-
-21. What is an interface?
-    * A contract that a class must implement.
-    * Declares abstract methods
-
-22. What is an `abstract` class?
-    * A template used by subclasses.
-    * Can have private and non-private variables along with abstract and non-abstrac methods
-
-23. What is the difference between `abstract` class and interface?
-    * Interfaces 
-        * couples a class to a behavior
-        * declare `abstract` methods
-    * abstract classes
-        * couples a class to a construction.
-        * declare `abstract` methods.
-        * define concrete method
-        * define constructors
-        * declare fields
-        * assgin field-values
 
 24. Can an interface implement or extend another interface?
     * Yes, an interface can extend another interface.
     * An interface cannot `implement` another interface, because it would imply that it would be _defining_ a method. An interface is used to _declare_ method signatures. An interface which `extends` another interface, inherits the declared method signatures and defers the definition to the implementing subclass.
-
-25. What are Wrapper classes?
-    * Wrapper classes are _decorations_ of primitive types.
-    * Wrapper classes enable all of the expected behaviors of a primitive type, but add additional behaviors.
-
-26. What is an `Enum` in Java?
-    * A special class that represents a group of constants (unchangeable variables, like final variables)
 
 27. What are Java Annotations?
     * Annotations are used to provide supplement information about a program.
@@ -130,22 +17,15 @@
     * Java Reflection makes it possible to inspect classes, interfaces, fields and methods at runtime, without knowing the names of the classes, methods etc. at compile time.
     * It is also possible to instantiate new objects, invoke methods and get/set field values using reflection.
 
-29. What is composition in OOP?
-    * Composition is the design technique to implement `has-a` relationship in classes.
-    * Java composition is achieved by using instance variables that refers to other objects.
-
-30. What is the benefit of Composition over Inheritance?
-    * Composition is more flexible than inheritance.
-    * You can change implementation of class at run-time by changing included object, thus changing behavior of it. Inheritance violates encapsulation by exposing all of the inherited members. By inheriting from a class you're coupling child class with number of potential implementation details of the parent.
-
 31. How can one sort a collection of custom Objects in Java?
     * `Collections.sort`
+
+35. What are different types of classloaders?
 
 32. What is inner class in java?
 
 33. What is anonymous inner class?
 34. What is the Classloader in Java?
-35. What are different types of classloaders?
 36. What is ternary operator in java?
 37. What does super keyword do? Used by the subclass to call a method defined in the superclass
 38. What are break and continue statement used for? When the break statement is encountered inside a loop, the loop is immediately terminated and the program control resumes at the next statement following the loop. The continue keyword can be used in any of the loop control structures. It causes the loop to immediately jump to the next iteration of the loop.
