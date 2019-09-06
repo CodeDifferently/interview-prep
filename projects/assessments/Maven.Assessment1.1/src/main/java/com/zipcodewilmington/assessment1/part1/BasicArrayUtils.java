@@ -22,17 +22,17 @@ public class BasicArrayUtils {
 
     /**
      * @param stringArray an array of String objects
-     * @return stringArray with the elements in reverse order
+     * @return the last element in the array
      */
-    public static String[] reverse(String[] stringArray) {
+    public static String getLastElement(String[] stringArray) {
         return null;
     }
 
     /**
      * @param stringArray an array of String objects
-     * @return String made up of the first character in each element of stringArray
+     * @return the second to last element in the array
      */
-    public static String getFirstLetterOfEachElement(String[] stringArray) {
+    public static String getSecondToLastElement(String[] stringArray) {
         return null;
     }
 }

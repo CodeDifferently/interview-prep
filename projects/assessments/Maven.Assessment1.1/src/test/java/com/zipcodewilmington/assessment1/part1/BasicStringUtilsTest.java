@@ -10,8 +10,8 @@ public class BasicStringUtilsTest {
     @Test
     public void camelCaseTest() {
         // Given
-        String input = "she sells sea shells";
-        String expected = "She Sells Sea Shells";
+        String input = null;
+        String expected = null;
 
         // When
         String actual = BasicStringUtils.camelCase(input);
@@ -23,24 +23,11 @@ public class BasicStringUtilsTest {
     @Test
     public void reverseTest() {
         // Given
-        String input = "she sells sea shells";
-        String expected = "sllehs aes slles ehs";
+        String input = null;
+        String expected = null;
 
         // When
         String actual = BasicStringUtils.reverse(input);
-
-        // Then
-        Assert.assertEquals(expected, actual);
-    }
-
-    @Test
-    public void reverseWordsTest() {
-        // Given
-        String input = "she sells sea shells";
-        String expected = "ehs slles aes sllehs";
-
-        // When
-        String actual = BasicStringUtils.reverseWords(input);
 
         // Then
         Assert.assertEquals(expected, actual);
@@ -50,8 +37,8 @@ public class BasicStringUtilsTest {
     @Test
     public void reverseThenCamelCaseTest() {
         // Given
-        String input = "she sells sea shells";
-        String expected = "Sllehs Aes Slles Ehs";
+        String input = null;
+        String expected = null;
 
         // When
         String actual = BasicStringUtils.reverseThenCamelCase(input);
@@ -64,8 +51,8 @@ public class BasicStringUtilsTest {
     @Test
     public void removeFirstAndLastCharacterTest() {
         // Given
-        String input = "she sells sea shells";
-        String expected = "he sells sea shell";
+        String input = null;
+        String expected = null;
 
         // When
         String actual = BasicStringUtils.removeFirstAndLastCharacter(input);
@@ -75,25 +62,13 @@ public class BasicStringUtilsTest {
     }
 
     @Test
-    public void invertCasingTest1() {
+    public void invertCasingTest() {
         // Given
-        String input = "shE sells SEA sHeLlS";
-        String expected = "SHe SELLS sea ShElLs";
+        String input = null;
+        String expected = null;
 
         // When
         String actual = BasicStringUtils.invertCasing(input);
-
-        // Then
-        Assert.assertEquals(expected, actual);
-    }
-
-    @Test
-    public void invertCasingTest2() {
-        // Given
-        String expected = "sHE sELls SEa sHeLlS";
-
-        // When
-        String actual = BasicStringUtils.invertCasing(BasicStringUtils.invertCasing(expected));
 
         // Then
         Assert.assertEquals(expected, actual);

@@ -22,6 +22,14 @@ public class BasicStringUtils {
 
     /**
      * @param str string input from client
+     * @return string with identical contents, with each word individually in reverse order
+     */
+    public static String reverseWords(String str) {
+        return null;
+    }
+
+    /**
+     * @param str string input from client
      * @return string with identical contents, in reverse order, with first character capitalized
      */
     public static String reverseThenCamelCase(String str) {
@@ -44,4 +52,5 @@ public class BasicStringUtils {
     public static String invertCasing(String str) {
         return null;
     }
+
 }

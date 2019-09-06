@@ -10,25 +10,12 @@ public class BasicArrayUtilsTest {
     @Test
     public void getFirstElementTest() {
         // Given
-        String[] inputArray = {"The", "quick", "brown"};
-        String expected = "The";
-
+        String[] inputArray = null;
+        String expected = null;
+        
         // When
-        String actual = BasicArrayUtils.getFirstElement(inputArray);
-
-        // Then
-        Assert.assertEquals(expected, actual);
-    }
-
-    @Test
-    public void getFirstElementTest2() {
-        // Given
-        String[] inputArray = {"Somewhere", "over", "the", "rainbow"};
-        String expected = "Somewhere";
-
-        // When
-        String actual = BasicArrayUtils.getFirstElement(inputArray);
-
+        String actual = BasicArrayUtils.getFirstElement(inputArray); 
+        
         // Then
         Assert.assertEquals(expected, actual);
     }
@@ -36,8 +23,8 @@ public class BasicArrayUtilsTest {
     @Test
     public void getSecondTest() {
         // Given
-        String[] inputArray = {"The", "quick", "brown"};
-        String expected = "quick";
+        String[] inputArray = null;
+        String expected = null;
 
         // When
         String actual = BasicArrayUtils.getSecondElement(inputArray);
@@ -47,67 +34,28 @@ public class BasicArrayUtilsTest {
     }
 
     @Test
-    public void getSecondTest2() {
+    public void getLastElementTest() {
         // Given
-        String[] inputArray = {"Somewhere", "over", "the", "rainbow"};
-        String expected = "over";
+        String[] inputArray = null;
+        String expected = null;
 
         // When
-        String actual = BasicArrayUtils.getSecondElement(inputArray);
+        String actual = BasicArrayUtils.getLastElement(inputArray);
 
         // Then
         Assert.assertEquals(expected, actual);
     }
 
     @Test
-    public void reverseArrayTest() {
+    public void getSecondToLastElementTest() {
         // Given
-        String[] input = {"The", "quick", "brown"};
-        String[] expected = {"brown", "quick", "The"};
+        String[] inputArray = null;
+        String expected = null;
 
         // When
-        String[] actual = BasicArrayUtils.reverse(input);
-
-        // Then
-        Assert.assertArrayEquals(expected, actual);
-    }
-
-    @Test
-    public void reverseArrayTest2() {
-        // Given
-        String[] expected = {"Somewhere", "over", "the", "rainbow"};
-
-        // When
-        String[] actual = BasicArrayUtils.reverse(BasicArrayUtils.reverse(expected));
-
-        // Then
-        Assert.assertArrayEquals(expected, actual);
-    }
-
-    @Test
-    public void firstLetterTest() {
-        // Given
-        String[] inputArray = {"The", "quick", "brown", "fox"};
-        String expected = "Tqbf";
-
-        // When
-        String actual = BasicArrayUtils.getFirstLetterOfEachElement(inputArray);
+        String actual = BasicArrayUtils.getSecondToLastElement(inputArray);
 
         // Then
         Assert.assertEquals(expected, actual);
     }
-
-    @Test
-    public void firstLetterTest2() {
-        // Given
-        String[] inputArray = {"Somewhere", "over", "the", "rainbow"};
-        String expected = "Sotr";
-
-        // When
-        String actual = BasicArrayUtils.getFirstLetterOfEachElement(inputArray);
-
-        // Then
-        Assert.assertEquals(expected, actual);
-    }
-
 }

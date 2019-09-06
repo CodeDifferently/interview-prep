@@ -27,4 +27,12 @@ public class IntegerArrayUtils {
     public static Double getAverage(Integer[] intArray) {
         return null;
     }
+
+    /**
+     * @param intArray an array of integers
+     * @return the largest integer in intArray
+     */
+    public static Integer getLargest(Integer[] intArray) {
+        return null;
+    }
 }
