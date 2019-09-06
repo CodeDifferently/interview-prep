@@ -57,7 +57,7 @@
 16. What is the `final` keyword?
     * `final` variable is a constant; It cannot be re-assigned a value.
     * `final` method is a cannot be overridden
-    * `final` class = cannot be extended
+    * `final` class cannot be extended
 
 17. What is the `static` keyword?
     * `static` member is a variable or method which operates independent of the **state** of the class that it is defined in; an instance of the class does not need to be created to access a `static` member.

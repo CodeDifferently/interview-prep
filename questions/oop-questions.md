@@ -59,3 +59,10 @@
 
 11. What is mutable?
 12. What is immutable?
+
+
+13. When do you know to define a generic class?
+    * You know to define a generic class when classes share signatures but have variable Type
+
+
+
