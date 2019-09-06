@@ -1,4 +1,4 @@
-package com.zipcodewilmington;
+package com.github.codedifferently;
 
 /**
  * Created by leon on 1/29/18.
@@ -9,7 +9,7 @@ public class StringArrayUtils {
      * @return first element of specified array
      */ // TODO
     public static String getFirstElement(String[] array) {
-        return array[0];
+        return null;
     }
 
     /**
@@ -17,7 +17,7 @@ public class StringArrayUtils {
      * @return second element in specified array
      */
     public static String getSecondElement(String[] array) {
-        return array[1];
+        return null;
     }
 
     /**

@@ -1,4 +1,4 @@
-package com.zipcodewilmington;
+package com.github.codedifferently;
 
 import org.junit.Assert;
 import org.junit.Test;

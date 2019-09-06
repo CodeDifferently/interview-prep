@@ -7,7 +7,7 @@
 	* Students will learn fundamental data structures and their math counterparts
 	* Students will learn fundamental operations and their math counterparts
 * **Micro-algorithms**
-	* Students will learn how to effectively solve small micro-aglorithms.
+	* Students will learn how to effectively solve basic aglorithms.
 	* Students will learn real-life examples of algorithms and their psuedo-code transliterations.
 * **White-boarding**
 	* Students will learn ubiquotous syntax (conventions) when expressing on a whiteboard

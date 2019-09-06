@@ -1,6 +1,8 @@
 ## Java Niches
 
 
+1. What is java?
+
 2. What is meant by platform independence of Java?
     * Has a large library of useable code and an execution evirionment Java Virtual Machine
 

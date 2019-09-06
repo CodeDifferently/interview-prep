@@ -1,5 +1,7 @@
 ## Language Agnostic OOP Questions
 
+0. What is OOP?
+
 1. Name the four pillars of OOP?
     * Abstration
     * Encapsulation
@@ -48,3 +50,12 @@
 9. What is the benefit of Composition over Inheritance?
     * Composition is more flexible than inheritance.
     * You can change implementation of class at run-time by changing included object, thus changing behavior of it. Inheritance violates encapsulation by exposing all of the inherited members. By inheriting from a class you're coupling child class with number of potential implementation details of the parent.
+
+10. Describe each of the four pillars
+    1. What is Abstration?
+    2. What is Encapsulation?
+    3. What is Polymorphism?
+    4. What is Inheritance?
+
+11. What is mutable?
+12. What is immutable?

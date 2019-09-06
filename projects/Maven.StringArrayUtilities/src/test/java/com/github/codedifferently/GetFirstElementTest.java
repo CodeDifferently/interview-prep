@@ -1,33 +1,32 @@
-package com.zipcodewilmington;
+package com.github.codedifferently;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-public class GetSecondElementTest {
-
+public class GetFirstElementTest {
 
     @Test
-    public void testGetSecondElement1() {
+    public void testGetFirstElement1() {
         String[] array = {"the", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"};
-        String expected = "quick";
-        String actual = StringArrayUtils.getSecondElement(array);
+        String expected = "the";
+        String actual = StringArrayUtils.getFirstElement(array);
         Assert.assertEquals(expected, actual);
     }
 
     @Test
-    public void testGetSecondElement2() {
+    public void testGetFirstElement2() {
         String[] array = {"quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"};
-        String expected = "brown";
-        String actual = StringArrayUtils.getSecondElement(array);
+        String expected = "quick";
+        String actual = StringArrayUtils.getFirstElement(array);
         Assert.assertEquals(expected, actual);
     }
 
 
     @Test
-    public void testGetSecondElement3() {
+    public void testGetFirstElement3() {
         String[] array = {"brown", "fox", "jumps", "over", "the", "lazy", "dog"};
-        String expected = "fox";
-        String actual = StringArrayUtils.getSecondElement(array);
+        String expected = "brown";
+        String actual = StringArrayUtils.getFirstElement(array);
         Assert.assertEquals(expected, actual);
     }
 }
