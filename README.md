@@ -6,7 +6,7 @@
 	* Students will establish fundamental vocabulary terms
 	* Students will learn fundamental data structures and their math counterparts
 	* Students will learn fundamental operations and their math counterparts
-* **Micro-algorithms**
+* **Algorithms**
 	* Students will learn how to effectively solve basic aglorithms.
 	* Students will learn real-life examples of algorithms and their psuedo-code transliterations.
 * **White-boarding**
