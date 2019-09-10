@@ -1,7 +1,6 @@
 # Quiz 1
 
-
-## Questions
+## Interview Questions
 
 ### Part 1 - Establishing vocabulary
 1. What is _declaration_?
