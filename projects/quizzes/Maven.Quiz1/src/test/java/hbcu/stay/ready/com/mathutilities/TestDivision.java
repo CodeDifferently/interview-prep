@@ -37,31 +37,6 @@ public class TestDivision {
     }
 
     @Test
-    public void testShortDivision() {
-        // : Given
-        short dividend = 2;
-        short divisor = 1;
-        short expectedShort = 2;
-        // : When
-        short actualShort = mathUtils.divide(dividend, divisor);
-        // : Then
-        assertEquals(expectedShort, actualShort);
-
-    }
-
-    @Test
-    public void testByteDivision() {
-        // : Given
-        byte dividend = 64;
-        byte divisor = 32;
-        byte expectedByte = 2;
-        // : When
-        byte actualByte = mathUtils.divide(dividend, divisor);
-        // : Then
-        assertEquals(expectedByte, actualByte);
-    }
-
-    @Test
     public void testFloatDivision() {
         // : Given
         float dividend = 7.5F;

@@ -35,28 +35,7 @@ public class TestMultiplication {
         // : Then
         assertEquals(expectedLong, actualLong);
     }
-    @Test
-    public void testShortMultiplication() {
-        // : Given
-        short multiplicand = 2;
-        short multiplier = 1;
-        short expectedShort = 2;
-        // : When
-        short actualShort = mathUtils.multiply(multiplicand, multiplier);
-        // : Then
-        assertEquals(expectedShort, actualShort);
-    }
-    @Test
-    public void testByteMultiplication() {
-        // : Given
-        byte multiplicand = 16;
-        byte multiplier = 14;
-        byte expectedByte = 64;
-        // : When
-        byte actualByte = mathUtils.multiply(multiplicand, multiplier);
-        // : Then
-        assertEquals(expectedByte, actualByte);
-    }
+
     @Test
     public void testFloatMultiplication() {
         // : Given

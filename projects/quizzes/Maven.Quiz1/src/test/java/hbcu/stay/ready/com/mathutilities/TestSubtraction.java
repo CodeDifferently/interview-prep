@@ -34,28 +34,7 @@ public class TestSubtraction {
         // : Then
         assertEquals(expectedLong,actualLong);
     }
-    @Test
-    public void testShortSubtraction() {
-        // : Given
-        short baseValue = 16384;
-        short difference = 16383;
-        short expectedShort = 1;
-        // : When
-        short actualShort = mathUtils.subtract(baseValue, difference);
-        // : Then
-        assertEquals(expectedShort,actualShort);
-    }
-    @Test
-    public void testByteSubtraction() {
-        // : Given
-        byte baseValue = 63;
-        byte difference = 64;
-        byte expectedByte = -1;
-        // : When
-        byte actualByte = mathUtils.subtract(baseValue, difference);
-        // : Then
-        assertEquals(expectedByte,actualByte);
-    }
+
     @Test
     public void testFloatSubtraction() {
         // : Given

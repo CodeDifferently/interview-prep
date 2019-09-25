@@ -34,29 +34,6 @@ public class TestAddition {
         assertEquals(expected, actual);
     }
 
-    @Test
-    public void testShortAddition() {
-        // : Given
-        short baseValue = 16384;
-        short addedValue = 7;
-        short expected = 16391;
-        // : When
-        short actual = mathUtils.add(baseValue, addedValue);
-        // : Then
-        assertEquals(expected, actual);
-    }
-
-    @Test
-    public void testByteAddition() {
-        // : Given
-        byte baseValue = 63;
-        byte addedValue = 64;
-        byte expected = 127;
-        // : When
-        byte actual = mathUtils.add(baseValue, addedValue);
-        // : Then
-        assertEquals(expected, actual);
-    }
 
     @Test
     public void testFloatAddition() {
